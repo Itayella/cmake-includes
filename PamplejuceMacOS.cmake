@@ -1,7 +1,7 @@
 
 # This must be set before the project() call
 # see: https://cmake.org/cmake/help/latest/variable/CMAKE_OSX_DEPLOYMENT_TARGET.html
-set(CMAKE_OSX_DEPLOYMENT_TARGET "10.13" CACHE STRING "Support macOS down to High Sierra")
+set(CMAKE_OSX_DEPLOYMENT_TARGET "10.14" CACHE STRING "Support macOS down to Mojave")
 
 # Building universal binaries on macOS increases build time
 # This is set on CI but not during local dev
